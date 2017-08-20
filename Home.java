@@ -1,6 +1,6 @@
 package com.hackathon.chanchalroshan.openvote;
 
-//Chanchal Kumar Roshan
+//Chanchal Roshan
 
 import android.app.ProgressDialog;
 import android.content.BroadcastReceiver;
