@@ -1,7 +1,5 @@
 package com.hackathon.chanchalroshan.openvote;
 
-//Chanchal Kumar Roshan
-
 import android.app.ProgressDialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -51,6 +49,8 @@ public class Home extends AppCompatActivity implements View.OnClickListener {
         getSupportActionBar().setTitle("Home");
 
         mDatabase = FirebaseDatabase.getInstance().getReference();
+
+        FirebaseDatabase.getInstance().getReference();
 
         IntentFilter intentFilter = new IntentFilter();
         intentFilter.addAction("com.package.ACTION_LOGOUT");
